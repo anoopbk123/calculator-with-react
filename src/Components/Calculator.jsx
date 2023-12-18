@@ -18,7 +18,7 @@ export default function Calculator() {
     }
     //calculation
     const handleEquals = () => {
-        setOutput(eval(output))
+        setOutput(String(eval(output)))
     }
 
 
