@@ -22,9 +22,9 @@ export default function Calculator() {
     // }
     const handleEquals = () => {
       try {
-          setInput(eval(input).toString());
+          setOutput(eval(output).toString());
       } catch (error) {
-          setInput('Error');
+          setOutput('Error');
       }
   }
 
