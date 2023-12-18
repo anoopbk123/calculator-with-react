@@ -17,9 +17,16 @@ export default function Calculator() {
         setOutput(output+input);
     }
     //calculation
+    // const handleEquals = () => {
+    //     setOutput(String(eval(output)))
+    // }
     const handleEquals = () => {
-        setOutput(String(eval(output)))
-    }
+      try {
+          setInput(eval(input).toString());
+      } catch (error) {
+          setInput('Error');
+      }
+  }
 
 
   return (
