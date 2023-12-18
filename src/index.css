@@ -33,7 +33,7 @@ code {
   background-color:rgb(61, 55, 55);
   display: grid;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
   color: rgb(255, 255, 255);
   grid-area: 1/1/2/5;
   font-size: 200%;
