@@ -58,7 +58,7 @@ export default function Calculator() {
         <div className="btn operator" onClick={() => handleInput("*")}>
           x
         </div>
-        <div className="btn" onClick={() => handleInput("10")}>
+        <div className="btn" onClick={() => handleInput("4")}>
           4
         </div>
         <div className="btn" onClick={() => handleInput("5")}>
